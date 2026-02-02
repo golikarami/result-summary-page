@@ -1,0 +1,184 @@
+body {
+  display: flex;
+  background-color: rgb(247, 245, 252);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "font-medium";
+  margin: 0;
+}
+@font-face {
+  font-family: "font-medium";
+  src: url(./font/HankenGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: "font-extrabold";
+  src: url(./font/HankenGrotesk-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "font-bold";
+  src: url(./font/HankenGrotesk-Bold.ttf);
+}
+.container {
+  display: flex;
+  border-radius: 20px;
+  width: 700px;
+  overflow: hidden;
+  box-shadow: 0, 5px, 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #342feb, #6643fe, #6f50f8);
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  border-bottom: 15px;
+}
+.left {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+  text-align: left;
+  flex-direction: column;
+  display: flex;
+  border-radius: 15px;
+}
+.title-right {
+  text-align: center;
+  justify-content: center;
+  color: rgb(215, 221, 227);
+  font-size: larger;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #342febff, #6f50f820);
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  flex-direction: column;
+  color: aliceblue;
+  box-shadow: inset 0 10px 40px -40px hsla(258, 96%, 30%, 0.6);
+  text-align: center;
+}
+.current-score {
+  font-family: "font-extrabold";
+  font-size: 80px;
+  color: aliceblue;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+.main-score {
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  color: rgb(201, 198, 198);
+  margin: 0;
+}
+.tag {
+  color: aliceblue;
+  font-size: 35px;
+  font-family: "font-bold";
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.description {
+  justify-content: center;
+  align-items: center;
+  color: rgb(216, 214, 214);
+  width: 220px;
+  white-space: normal;
+}
+.title-left {
+  color: #303b5a;
+  font-family: font-bold;
+  font-size: larger;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.text {
+  justify-content: flex-start;
+}
+.line1 {
+  background-color: #fff6f9;
+}
+
+.reaction {
+  color: #ff5555;
+  justify-content: flex-start;
+}
+
+.line2 {
+  background-color: #fdfbeb;
+}
+
+.memory {
+  color: #ffb21e;
+}
+
+.slash {
+  color: rgb(135, 134, 134);
+}
+
+.line3 {
+  background-color: #eefffb;
+}
+
+.verbal {
+  color: #00bb8f;
+}
+
+.line4 {
+  background-color: #f6f4fe;
+}
+.icon {
+  margin-right: 2px;
+  padding: 0;
+}
+.visual {
+  color: #1125d6;
+  margin: 0;
+}
+.text-number {
+  margin-left: 113px;
+  color: #303b5a;
+}
+.Continue-btn {
+  text-align: center;
+  background-color: #303b5a;
+  color: aliceblue;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.Continue-btn {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.Continue-btn:hover {
+  background-color: #1f2a45;
+  transform: scale(1.03);
+}
