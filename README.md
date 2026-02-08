@@ -13,4 +13,10 @@ This page displays summarized results, ideal for quizzes, tests, surveys, or sim
 
 1. Clone the project:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/golikarami/result-summary-page.git>
+```
+2. Go into the project folder:
+```bash
+cd result-summary-page
+```
+3. Open index.html in your browser (double-click or right-click → Open with → Browser).
